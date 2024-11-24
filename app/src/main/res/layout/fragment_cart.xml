@@ -155,7 +155,7 @@
             android:text="Total: $45.00"/>
 
         <Button
-            android:id="@+id/btnCheckout"
+            android:id="@+id/btnCart"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Proceder a la compra"

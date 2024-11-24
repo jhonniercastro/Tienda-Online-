@@ -1,0 +1,46 @@
+<!-- activity_paypal.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Título de la pantalla -->
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proceso de Pago"
+        android:textSize="24sp"
+        android:paddingBottom="20dp"
+        android:textStyle="bold"/>
+
+    <!-- Detalle del producto -->
+    <TextView
+        android:id="@+id/txtProductDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Productos:\nCamisa Deportiva: $20.00 USD\nBalon de futbol:     $25.00 USD"
+        android:textSize="18sp"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio: $45.00 USD"
+        android:textSize="18sp"
+        android:paddingBottom="20dp"/>
+
+    <!-- Botón para pagar -->
+    <Button
+        android:id="@+id/btnPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pagar con PayPal"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:padding="10dp"/>
+
+</LinearLayout>
